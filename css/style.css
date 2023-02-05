@@ -1,0 +1,29 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.play-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.play-btn:hover,
+.play-btn:focus {
+  color: #fff !important;
+}
+
+.iframe {
+  width: 355px;
+  height: 315px;
+}
+
+@media screen and (max-width: 400px) {
+  .iframe {
+    width: 320px;
+    height: 315px;
+  }
+}
